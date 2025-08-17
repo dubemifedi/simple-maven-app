@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.8.6' // Make sure this matches your Jenkins Maven tool name
+        maven 'dubem-maven' // Make sure this matches your Jenkins Maven tool name
     }
 
     stages {
